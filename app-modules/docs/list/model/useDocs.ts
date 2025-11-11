@@ -25,10 +25,6 @@ export default function() {
   const commonDocs: Record<string, DocItem[]> = {
     1: [
       getDocItem(
-        'Сертификат Р ИСО 45001-2020 (ST.RU.0001.P43470)',
-        'managment/0',
-      ),
-      getDocItem(
         'Сертификат Р ИСО 9001-2015 и ГОСТ Р ИСО 14001-2016',
         'managment/1',
       ),
