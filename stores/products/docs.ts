@@ -152,9 +152,13 @@ export const useProductsDocsStore = defineStore('productsDocsStore', () => {
         'Декларация ТР ТС 010 (ЕАЭС N RU Д-RU.РА05.В.18021_25)',
         'zatvory-obratnyie/1',
       ),
+      // getDocItem(
+      //   'Сертификат ТР ТС 012 (ТС RU C-RU.АД07.В.03348_21)',
+      //   'zatvory-obratnyie/3',
+      // ),
       getDocItem(
-        'Сертификат ТР ТС 012 (ТС RU C-RU.АД07.В.03348_21)',
-        'zatvory-obratnyie/3',
+        'Декларация ТР ТС 032 (ЕАЭС N RU Д-RU.РА05.В.16326_22)',
+        'zatvory-obratnyie/10',
       ),
       getDocItem(
         'Сертификат на тип КО (ЕАЭС RU СТ-RU.НВ94.01979)',
