@@ -9,6 +9,7 @@
 }
 
 .scroll-y::-webkit-scrollbar-thumb {
+  cursor: grab;
   border-radius: 8px;
   @apply tw-bg-primary;
 }

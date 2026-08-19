@@ -1,14 +1,16 @@
 <template>
-  <div class="tw-overflow-y-hidden">
-    <div class="items">
-      <button
-        class="item"
-        :class="{ 'item--active': index === activeTab }"
-        v-for="(item, index) in items"
-        @click="$emit('update:activeTab', index)"
-      >
-        {{ item }}
-      </button>
+  <div class="tabs-area scroll-y">
+    <div class="tabs-body">
+      <div class="items">
+        <button
+          class="item"
+          :class="{ 'item--active': index === activeTab }"
+          v-for="(item, index) in items"
+          @click="$emit('update:activeTab', index)"
+        >
+          {{ item }}
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -25,9 +27,17 @@
 </script>
 
 <style scoped lang="scss">
+  .tabs-area {
+    overflow-y: hidden;
+  }
+
+  .tabs-body {
+    padding-bottom: 12px;
+  }
+
   .items {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 
     @include sm {
       gap: 16px;
