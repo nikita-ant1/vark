@@ -25,10 +25,10 @@ export default function() {
 
   const commonDocs: Record<string, DocItem[]> = {
     1: [
-      getDocItem(
-        'Сертификат Р ИСО 9001-2015 и ГОСТ Р ИСО 14001-2016',
-        'managment/1',
-      ),
+      // getDocItem(
+      //   'Сертификат Р ИСО 9001-2015 и ГОСТ Р ИСО 14001-2016',
+      //   'managment/1',
+      // ),
       getDocItem(
         'Сертификат ГОСТ ИСО 13849-1-2014 и ГОСТ Р МЭК 61508-1-2012 (РОСС RU.З3026.04ЦЭТ0ОС002.С02830)',
         'managment/2',
@@ -49,10 +49,10 @@ export default function() {
         'Сертификат ГОСТ Р ИСО 45001-2020 (ST.RU.0001.P44159)',
         'managment/8',
       ),
-      getDocItem(
-        'Сертификат СТО Газпром 9001 2018 ОГН1 RU 1419 K0009',
-        'managment/3',
-      ),
+      // getDocItem(
+      //   'Сертификат СТО Газпром 9001 2018 ОГН1 RU 1419 K0009',
+      //   'managment/3',
+      // ),
       getDocItem(
         'Заключение (INTI.QS.S.QS.1-07-2024-57)',
         'managment/4',
